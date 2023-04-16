@@ -1,0 +1,53 @@
+/* FONT_FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Cinzel+Decorative:wght@700&display=swap");
+
+/* FONT FAMILY_NAME */
+/* 
+font-family: 'BioRhyme', serif;
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: "Arvo", serif;
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Heading Tags */
+h1,
+h2,
+h3 {
+  font-family: "Arvo", serif;
+}
+
+p,
+h4,
+h5,
+h6 {
+  font-family: "Arvo", serif;
+}
+
+/* Input & Button Tags */
+button,
+input {
+  font-family: monospace;
+}
+
+p {
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+/* Navbar Component */
+.navbar-brand {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.nav-item {
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
